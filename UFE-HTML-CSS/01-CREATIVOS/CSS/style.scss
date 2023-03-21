@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Tilt+Warp&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #EDF1D6;
+    padding: 1.5rem;
+}
+
+.header {
+    text-align: center;
+    height: 70px;
+    margin: 2rem 0;
+}
+
+	.demo {
+		border:1px sólido #C0C0C0;
+		border-collapse:colapso;
+		padding:5px;
+	}
+	.demo th {
+		border:1px sólido #C0C0C0;
+		padding:5px;
+		background:#F0F0F0;
+	}
+	.demo td {
+		border:1px sólido #C0C0C0;
+		padding:5px;
+	}
+
+// nav
+
+nav {
+    ul {
+        display: flex;
+        justify-content: space-around;
+      
+        li {
+            list-style: none;
+            margin: 1rem 0;
+            a {
+                text-decoration: none;
+                background: black;
+                padding: .5rem 1rem;
+                color: #EDF1D6;
+                border-radius: 25px;
+                transition: all .3s ease-in-out;
+                &:hover {
+                    background:#EDF1D6;
+                    color: black;
+                    padding: .5rem 1rem;
+                }
+            }
+            
+        }
+    }
+}
+
+// content
+
+.content {
+    border: 1px solid black;
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+
+
+.info {
+    text-decoration: none;
+}
+
+// imagines
+
+.img {
+    display: flex;
+    justify-content: space-around;
+    img {
+        height: 200px;
+        margin: 2rem 0;
+    }
+}
+
+// imagines de futbolista 
+
+.playerImg {
+
+    // display: flex;
+    // justify-content: center;
+    img {
+        width: 250px;
+    }
+}

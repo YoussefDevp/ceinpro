@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: #010ef8;
+}
+
+header h1 {
+    color: wheat;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 20PX;
+    /* margin: 10px; */
+}
+
+nav {
+    width: 100%;
+    background-color: black;
+    margin: 1rem ;
+}
+nav ul{
+    list-style: none;
+    padding: 0 .5rem;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: flex-end;
+    justify-content: flex-end;
+    justify-content: space-around;
+    
+    
+}
+nav ul li {}
+nav ul li a {
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+}
+nav ul li a:hover {
+
+    border-radius: 50px;
+    transition: .3s ease-out;
+    background: #010ef8;
+    color: bisque;
+    border: none;
+}
+
+section {
+    background-color: gray;
+    padding: 1rem;
+}
+
+section h2 {
+    padding: 1rem 0;
+}
+
+
+
+section article {
+    background-color: bisque;
+    padding: .5rem;
+    border-radius: 25px;
+}
+
+section article h2{
+    padding: .5rem;
+}
+
+
+
+
+section article img {
+    width: 25%;
+}
+
+.row {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.row .card {
+    width: 250px;
+}
+
+.row .card img {
+    width: 250px;
+
+}
+
+footer {
+    background-color: black;
+    color: #ffffff;
+    padding: 4rem;
+    text-align: center;
+}
+

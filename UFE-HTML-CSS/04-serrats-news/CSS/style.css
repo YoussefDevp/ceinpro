@@ -1,0 +1,74 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,400;1,500;1,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* > a:hover {
+  text-decoration: none;
+  transition: all .3s ease;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  background-image: url("../IMG/serrats_logo_erg-niveles.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: auto;
+  width: 40%;
+}
+
+header {
+  background: url("../IMG/el-saber-hacer-baner.png") no-repeat;
+  height: 200px;
+}
+
+section h1, section a {
+  color: #EB455F;
+}
+section h2 {
+  font-size: 1rem;
+  line-height: 3;
+}
+section img {
+  float: left;
+  padding: 1rem;
+}
+section p {
+  margin: 1rem 0;
+}
+section p:nth-of-type(7) {
+  background-color: #EB455F;
+  padding: 1rem;
+}
+section p:nth-of-type(7) span {
+  font-style: italic;
+  font-weight: 400;
+}
+section ul li {
+  margin-left: 4rem;
+  list-style-type: "✔ ";
+}
+
+footer {
+  text-align: center;
+  font-size: 60%;
+  padding-bottom: 1rem;
+}
+footer p {
+  line-height: 0;
+}
+footer .icons i {
+  font-size: 2rem;
+  color: #EB455F;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+footer .icons i:hover {
+  filter: brightness(150%);
+  transition: all 0.3s ease-in;
+}/*# sourceMappingURL=style.css.map */

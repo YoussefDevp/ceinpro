@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,400;1,500;1,600&family=Roboto:wght@300;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #CC7C58;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%23CC7C58' width='11' height='11'/%3E%3Crect fill='%23cd7e59' x='10' width='11' height='11'/%3E%3Crect fill='%23cd805a' y='10' width='11' height='11'/%3E%3Crect fill='%23ce825b' x='20' width='11' height='11'/%3E%3Crect fill='%23cf845c' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%23cf865d' y='20' width='11' height='11'/%3E%3Crect fill='%23d0885e' x='30' width='11' height='11'/%3E%3Crect fill='%23d18a5f' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%23d18c60' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%23d28e61' y='30' width='11' height='11'/%3E%3Crect fill='%23d29062' x='40' width='11' height='11'/%3E%3Crect fill='%23d39263' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%23d49464' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%23d49666' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%23d59867' y='40' width='11' height='11'/%3E%3Crect fill='%23d59a68' x='50' width='11' height='11'/%3E%3Crect fill='%23d69c6a' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%23d79e6b' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%23d7a06c' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%23d8a26e' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%23d8a46f' y='50' width='11' height='11'/%3E%3Crect fill='%23d9a671' x='60' width='11' height='11'/%3E%3Crect fill='%23d9a872' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%23daaa74' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%23daac75' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%23dbae77' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%23dbb078' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%23dcb27a' x='70' width='11' height='11'/%3E%3Crect fill='%23dcb47c' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%23ddb67d' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%23ddb77f' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%23deb981' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%23debb83' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%23dfbd85' x='80' width='11' height='11'/%3E%3Crect fill='%23dfbf86' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%23e0c188' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%23e1c38a' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%23e1c58c' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%23e2c78e' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%23e2c990' x='90' width='11' height='11'/%3E%3Crect fill='%23e3cb92' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%23e3cd94' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%23e4ce96' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%23e4d098' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23e5d29a' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%23e5d49c' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%23e6d69e' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23e6d8a0' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23e7daa2' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23e8dca5' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23e8dda7' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23e9dfa9' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23e9e1ab' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23eae3ad' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23ebe5b0' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%23ebe7b2' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%23ece9b4' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23edeab6' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23edecb9' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23EEB' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  box-shadow: 0px 11px 20px -15px rgba(0, 0, 0, 0.75);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 1rem;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: #444444a6;
+}
+
+nav ul li a:hover {
+  border-bottom: 3px solid #444444f5;
+  margin-bottom: .5rem;
+  transition: all .2s ease-in;
+}
+
+#btn {
+  text-align: center !important;
+  margin: auto;
+  width: 25%;
+}
+
+#btn a {
+  padding: .5rem 1.5rem;
+  border: 2px solid red;
+  text-decoration: none;
+  color: rgba(255, 0, 0, 0.651);
+}
+
+#btn a:hover {
+  color: #444444a6;
+  border: 2px solid #444444a6;
+  transition: all .3s ease-in-out;
+  border-radius: 5px;
+}
+
+article {
+  margin-top: 4rem;
+  margin: 12rem auto 3rem auto;
+  max-width: 700px;
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0px 11px 20px -15px rgba(0, 0, 0, 0.75);
+}
+
+header h1 {
+  font-size: 200%;
+  line-height: 1.2;
+  margin: 1rem 0;
+  width: 600px;
+}
+
+header span {
+  display: block;
+  font-weight: 300;
+  font-size: 90%;
+  margin: .5rem 0;
+}
+
+.lista {
+  margin: 1.5rem 0;
+  margin-left: 2.5rem;
+  color: #444444a6;
+}
+
+.content {
+  width: 100%;
+  color: #444444a6;
+  font-weight: 300;
+}
+
+.content p {
+  margin: 1rem 0;
+}
+
+.content span {
+  display: block;
+  font-weight: 600;
+}
+
+hr {
+  border: 2px dashed #444444a6;
+  margin: 2rem 0;
+}
+
+.social-icons {
+  margin-left: 1rem;
+}
+
+.social-icons span {
+  display: block;
+  margin: .4rem 0;
+  font-weight: 300;
+}
+
+.social-icons i {
+  font-size: 230%;
+  margin-right: .3rem;
+}
+
+.social-icons i:hover {
+  color: #444444a6;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+footer {
+  background-color: black;
+  padding: 5rem 0rem 1rem 0;
+  text-align: center;
+}
+
+footer p {
+  color: white;
+}
