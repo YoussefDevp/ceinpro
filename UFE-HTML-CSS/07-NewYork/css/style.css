@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body h1 {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.galery {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.galery img {
+  width: 500px;
+  height: 350px;
+  padding: 1rem;
+}/*# sourceMappingURL=style.css.map */
