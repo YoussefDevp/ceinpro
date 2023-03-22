@@ -18,6 +18,10 @@ body {
     margin: 2rem 0;
 }
 
+
+
+
+
 header {
     background: url('../IMG/fondo.jpg') no-repeat;
     background-position: center;
@@ -32,6 +36,8 @@ header {
         box-shadow: 0px 11px 10px -15px rgba(0,0,0,0.75);
         position:fixed;
         width: 100%;
+        transition: all 0.5s;
+        z-index: 3;
         
         ul {
             list-style: none;
@@ -44,9 +50,10 @@ header {
                 a {
                 font-size: 1.8rem;
                 text-decoration: none;
-                color: #444444bd;
+                color: #0E8388;
                 display: block;
                 margin-right: 2rem;
+                font-weight: 600;
 
                 &:hover {
                     background: slategray;
@@ -63,12 +70,17 @@ header {
         text-align: center;
         font-size: 800%;
         position: relative;
+        text-shadow: 2px 3px 1px #000;
         top:30%;
         span {
             color: white;
         }
        
     }
+}
+
+.nav-active {
+    background-color:white !important;
 }
 
  #ropa {
@@ -111,6 +123,7 @@ header {
     background-position: center;
     background-size: cover;
     padding: 10rem 0;
+    background-attachment: fixed;
     .test__cards {    
         display: flex;
         justify-content: center;
@@ -167,13 +180,22 @@ header {
 footer {
     background-color: black;
     padding: 5rem 0rem 1rem 0;
-    text-align: center;
-    p {
-        color: white;
+    width: 100%;
+    .about-us {
+        padding: 2rem;
+        display: flex;
+       img {
+        background: white;
+        width: 100px;
+
+       }
     }
 
     .social-icons {
+        text-align: center;
+        margin: 2rem 0;
         margin-left: 1rem;
+        color: white;
         span {
             display: block;
             margin: .4rem 0;
@@ -182,15 +204,84 @@ footer {
         i {
             font-size: 230%;
             margin-right: .3rem;
-            color: wheat;
+            
+            color: white;
             &:hover {
-                color: white;
+                color: wheat;
                 cursor: pointer;
                 transition: all .3s ease;
             }
         }
-    }   
+    } 
+    .social-links {
+        width: 100%;
+        padding: 0rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        ul {
+            list-style: none;
+           li {
+            margin-bottom: 1rem;
+            &:nth-of-type(1) {
+                font-weight: 700;
+            }
+            a {
+                text-decoration: none;
+                color: white;
+               
+                &:hover {
+                    text-decoration: underline;
+                    transition: all .3s ease-in-out;
+                }
+            }
+           }
+        }
+        img {
+            background: white;
+            height: 180px;
+
+        }
+    }  
+    p {
+        color: white;
+        text-align: center;
+    }
 }
+
+// product pages
+
+.row {
+    padding: 3rem 4rem;
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin:auto;
+    .col {
+        span {
+            font-size: 150%;
+        }
+        &:not(:last-child){
+            margin-right: 1.5rem;
+        }
+        p {
+            margin-top: 3rem;
+        }
+    } 
+}
+
+.content {
+    p {
+        max-width: 800px;
+        margin: 0 auto;
+        line-height: 1.6;
+        font-size: 120%;
+    }
+}
+
+
+
+
+
 
 
 
