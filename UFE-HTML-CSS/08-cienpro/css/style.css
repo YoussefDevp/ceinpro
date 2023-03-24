@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card p, i, h1 {
+  color: rgba(182, 30, 30, 0.8470588235);
+}
+
+nav {
+  padding: 2rem 1.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li:not(:last-child) {
+  margin-right: 1rem;
+}
+nav ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #444444;
+  transition: all 300ms ease-in-out;
+}
+nav ul li a:hover {
+  color: #82CD47;
+}
+
+.features {
+  margin: 6rem 0 1rem 0;
+}
+.features .cards {
+  display: flex;
+  justify-content: center;
+}
+.features .cards:not(:last-child) {
+  margin-bottom: 2rem;
+}
+.features .cards .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: rgba(68, 68, 68, 0.2588235294);
+  margin: 0.5rem;
+  padding: 1rem;
+  width: 230px;
+  height: 230px;
+}
+.features .cards .card i {
+  font-size: 4rem;
+  margin: 1rem 0;
+}
+
+.experincia {
+  background: url("../img/ceinpro-30-urte.jpg") top center/cover;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.experincia h1 {
+  font-size: 500%;
+  text-align: center;
+}
+
+.about-us {
+  display: flex;
+}
+.about-us col {
+  width: 400px;
+  background-color: #444444;
+}/*# sourceMappingURL=style.css.map */
