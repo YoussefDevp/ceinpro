@@ -1,0 +1,31 @@
+.col-1 {
+    background-color: #4444442e;
+    // height: 50px;
+    h1 {
+        font-weight: 400;
+        padding: 1rem 2rem;
+        color: #4444449d;
+        text-transform: uppercase;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+.col-3 {
+    text-align: center;
+    margin: 0 auto;
+    img {
+        width: 300px;
+
+    }
+}
+
+.col-2 {
+    p {
+        display: inline;
+    }
+   
+}
+
