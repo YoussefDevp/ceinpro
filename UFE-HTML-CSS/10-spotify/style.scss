@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+header {
+        height: 100vh;
+        width: 100%;
+        background-image: url('../img/hero.jpg');
+ 
+        nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 1rem;
+
+                img{
+                    width: 200px;
+                }
+
+                ul {
+                    display: flex;
+
+                    li {
+                        list-style: none;
+                        margin-right: 1rem;
+
+                        a {
+                            text-decoration: none;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+
+//    MUSIC 
+        .music {
+            padding:10rem;
+            h1{
+                color: #1ed760;
+                font-size: 580%;
+                width: 350px;
+                line-height: 1.1;
+                margin-bottom: 3.5rem;
+                span {
+                    color: white;
+                }
+            }
+           .btn {
+            padding: .3rem 1.8rem;
+            background: #1ed760;
+            border-radius: 50px;
+            text-decoration: none;
+                }
+           }
