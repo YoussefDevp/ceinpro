@@ -14,28 +14,6 @@ body {
   color: rgba(182, 30, 30, 0.8470588235);
 }
 
-nav {
-  padding: 2rem 1.8rem;
-  display: flex;
-  justify-content: space-between;
-}
-nav ul {
-  display: flex;
-  list-style: none;
-}
-nav ul li:not(:last-child) {
-  margin-right: 1rem;
-}
-nav ul li a {
-  text-decoration: none;
-  text-transform: capitalize;
-  color: #444444;
-  transition: all 300ms ease-in-out;
-}
-nav ul li a:hover {
-  color: #82CD47;
-}
-
 .features {
   margin: 6rem 0 1rem 0;
   width: 100%;
@@ -119,17 +97,6 @@ nav ul li a:hover {
   font-size: 200%;
 }
 
-footer {
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-footer p {
-  font-size: 90%;
-  font-weight: 300;
-}
-
 .col-1 {
   background-color: rgba(68, 68, 68, 0.1803921569);
 }
@@ -140,19 +107,126 @@ footer p {
   text-transform: uppercase;
 }
 .col-1 img {
-  width: 100%;
+  width: 760px;
 }
 
 .col-3 {
   text-align: center;
-  margin: 0 auto;
+  margin: 2rem auto;
+  background-color: rgba(68, 68, 68, 0.1803921569);
 }
 .col-3 img {
-  width: 300px;
+  width: 250px;
+}
+.col-3 p {
+  font-weight: 300;
+}
+.col-3 span {
+  font-size: 12.5px;
+}
+.col-3:hover {
+  background: #82CD47;
+}
+.col-3:hover img {
+  filter: brightness(60%);
 }
 
 .col-2 p {
   display: inline;
+}
+
+.empleo {
+  margin: 0 auto;
+}
+.empleo img {
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+}
+.banner p {
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+  padding: 10vh;
+}
+
+.banner::before {
+  width: 100%;
+  height: 50vh;
+  content: "";
+  background-image: url("/img/banner-ceinpro-entrada.jpg");
+  background-repeat: no-repeat;
+  position: absolute;
+  opacity: 0.2;
+}
+
+.col-6 {
+  width: 50%;
+  margin: 10px;
+}
+
+iframe {
+  width: 100%;
+  height: 60vh;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  gap: 10px;
+  padding: 10px;
+}
+.grid-container .grid-items {
+  background-color: #afcaaa;
+  text-align: center;
+  padding: 20px 0px;
+  border: 1px solid black;
+  font-size: 30px;
+}
+.grid-container .grid-items span {
+  font-size: 100px;
+  color: #73b819;
+}
+
+.grid-contianer-dos {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: #DF9232;
+  padding: 10px;
+}
+.grid-contianer-dos div {
+  background-color: #cfcaca;
+  text-align: center;
+  padding: 20px 0px;
+  border: 1px solid black;
+}
+.grid-contianer-dos span {
+  font-size: 100px;
+  color: #73b819;
+}
+
+.grid-items1 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.grid-items9 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.container .texto1 {
+  -moz-columns: 100px 3;
+       columns: 100px 3;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .row {
@@ -166,6 +240,11 @@ footer p {
 
 .center {
   margin: 0 auto;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
 }
 
 @media (max-width: 700px) {
@@ -275,6 +354,28 @@ footer p {
     opacity: 1;
   }
 }
+nav {
+  padding: 2rem 1.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li:not(:last-child) {
+  margin-right: 1rem;
+}
+nav ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #444444;
+  transition: all 300ms ease-in-out;
+}
+nav ul li a:hover {
+  color: #82CD47;
+}
+
 .menu {
   display: flex;
   flex-direction: row;
@@ -377,4 +478,17 @@ footer p {
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
   }
+}
+footer {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  font-size: 90%;
+  font-weight: 300;
+}
+footer p a {
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

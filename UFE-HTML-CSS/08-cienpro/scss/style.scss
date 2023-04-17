@@ -1,8 +1,14 @@
 @import "pages/index";
 @import "pages/ciclos";
+@import "pages/formacion";
+@import "pages/contact";
+@import "pages/grid.scss";
+
 @import "layout";
 @import "utilities";
 
 @import "queries";
 @import "components/sideShow";
+@import "components/nav";
 @import "components/hamburgerMenu";
+@import "components/footer";

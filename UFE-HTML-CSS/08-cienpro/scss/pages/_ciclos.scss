@@ -9,16 +9,29 @@
     }
 
     img {
-        width: 100%;
+        width: 760px;
     }
 }
 
 .col-3 {
     text-align: center;
-    margin: 0 auto;
+    margin: 2rem auto;
+    background-color: #4444442e;
     img {
-        width: 300px;
-
+        width: 250px;
+    }
+    
+    p {
+        font-weight: 300;
+    }
+    span {
+        font-size: 12.5px;
+    }
+    &:hover {
+        background: #82CD47;;
+        img {
+            filter:brightness(60%);
+        }
     }
 }
 

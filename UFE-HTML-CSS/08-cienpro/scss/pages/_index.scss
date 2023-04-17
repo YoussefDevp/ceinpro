@@ -14,33 +14,6 @@ body {
     color: #b61e1ed8;
 }
 
-
-
-nav {
-    padding: 2rem 1.8rem;
-    display: flex;
-    justify-content: space-between;
-    ul {
-        display: flex;
-        list-style: none;
-        li {
-            &:not(:last-child){
-                margin-right: 1rem;
-            }
-            a {
-                text-decoration: none;
-                text-transform: capitalize;
-                color: #444444;
-                transition: all 300ms ease-in-out;
-
-                &:hover  {
-                    color: #82CD47;
-                }
-            }
-        }
-    }
-}
-
  .features  {
     margin: 6rem 0 1rem 0;
     width: 100%;
@@ -131,17 +104,5 @@ nav {
     }
     p {
         font-size: 200%;
-    }
-}
-
-footer {
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-      p  {
-            font-size: 90%;
-            font-weight: 300;
     }
 }
