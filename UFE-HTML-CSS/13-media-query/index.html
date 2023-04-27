@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+       @media  screen and (min-width:540px) {
+        h1 {color: #ff6300;}
+       }
+       @media  screen and (min-width:720px) {
+        h1 {color: #006aff;}
+       }
+    
+       @media screen and (min-width:9600px) {
+        h1 {color: #ff00b7;}
+       }
+       @media screen and (min-width:1140px) {
+        h1 {color: #00ff77;}
+       }
+    </style>
+</head>
+
+<body>
+    <h1>mofidicarl tamano de la pantalla</h1>
+    <picture>
+        <source media="(max-width:540px)" srcset="./img/576-henry-be-IicyiaPYGGI-unsplash.jpg">
+        <source media="(max-width:720px)" srcset="./img/768-henry-be-IicyiaPYGGI-unsplash.jpg">
+        <source media="(max-width:960px)" srcset="./img/992-henry-be-IicyiaPYGGI-unsplash.jpg">    
+        <source media="(max-width:1140px)" srcset="./img/1200-henry-be-IicyiaPYGGI-unsplash.jpg">
+        <img src="./img/1200-henry-be-IicyiaPYGGI-unsplash.jpg" alt="flores">
+    </picture>
+
+</body>
+</html>

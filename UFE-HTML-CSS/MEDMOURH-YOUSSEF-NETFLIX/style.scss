@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #E8EAE3;
+}
+
+.row {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.s-heading {
+    font-size: 40px;
+    margin: 4rem;
+}
+
+.b-heading {
+    font-size: 70px;
+    margin: 4rem;
+    text-align: center;
+}
+
+.paragrafo {
+    font-size: 24px;
+    line-height: 1.6;
+    margin-bottom: 3rem;
+}
+
+.s-btn {
+    background: black;
+    color: white;
+    padding: .8rem 4rem;
+    font-size: 110%;
+    text-decoration: none;
+    border-radius: 25px;
+    &:hover {
+        background: white;
+    color: black;
+    transition: all ease-in 200ms;
+    border: 1px solid black;
+    }
+}
+
+
+header {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+        img {
+            width: 150px;
+            // height: 60px;
+        }
+
+        nav {
+            
+            ul {
+                display: flex;
+                li {
+                    list-style: none;
+                    margin-left: 2rem;
+                    a {
+                        text-decoration: none;
+                        font-size: 18px;
+                        color: black;
+                        &:hover {
+                            border-bottom: 4px solid #e50914;
+                            padding-bottom: .4rem;
+                            transition: all ease-in 200ms;
+                        }
+                    }
+                }
+
+            }
+        }
+    
+}
+
+#peli {
+    background: url('../img/peli.jpg') center center / cover;
+    height: 950px;
+    padding: 200px;
+    h1 {
+        font-size: 120px;
+        color:#e50914;
+        width:600px ;
+        margin-bottom: 2rem;
+        span {
+            color: white;
+
+        }
+    }
+    .btn {
+        background: black;
+        color: white;
+        padding: .8rem 4rem;
+        font-size: 150%;
+        text-decoration: none;
+        border-radius: 25px;
+    }
+}
+
+.disfruta {
+    background: white;
+    margin: 6rem;
+    display: flex;
+    .content {
+        text-align: center;
+        width: 750px;
+    }
+}
+
+.col-3 {
+    .cards {
+        display: flex;
+        margin-bottom: 8rem;
+        .card {
+            margin-left: 2rem;
+            text-align: center;
+            background: white;
+            height: 600px;
+            img {
+                width: 380px;
+
+            }
+        }
+    }
+}
+
+footer {
+    background: black;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .social-icons {
+        i {
+            color: white;
+            font-size: 300%;
+            margin-left: 1.5rem;
+
+        }
+    }
+}
