@@ -1,0 +1,72 @@
+
+.navbar-brand img {
+    width: 80px;
+}
+
+.text-dark {
+    font-weight: 600 !important;
+}
+
+.jumbotron {
+    background-image: url('../imgs/bnpl-homepage.png');
+    height: 630px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    color:white;
+}
+
+.jumbotron  {
+    padding-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.jumbotron h1 {
+    font-weight: 700;
+    width: 50% !important;
+}
+.jumbotron a {
+    font-weight: 600 !important;
+    color: rgb(19, 19, 159);
+    /* width: 450px; */
+}
+
+
+.footer-ul {
+  list-style: none !important;
+}
+
+.footer-ul li a {
+ text-decoration:none !important;
+ margin-right: .5rem;
+}
+
+.col-sm-12:nth-of-type(1) .footer-ul li a {
+  color: black !important;
+  font-weight: 600 !important;
+}
+.col-sm-12:nth-of-type(2) .footer-ul li a {
+  color: #444444 !important;
+  font-weight: 600 !important;
+}
+
+@media only screen and (max-width: 575px) {
+  .col-sm-12 img {
+    width: 100% ;
+    margin: 2rem 0;
+  }
+  .jumbotron h1 {
+    width: 90% !important;
+}
+
+}
+
+@media only screen and (max-width: 1140px){
+
+.slideshow-container {
+  display: none !important;
+}
+}
+
